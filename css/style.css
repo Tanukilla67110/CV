@@ -117,7 +117,7 @@ ul, ol
 {   
     background: url("../img/bg3.jpeg") no-repeat center center fixed;
     background-size: cover;
-    padding: 120px 15px;
+    padding: 200px 100px 15px;
     height: 1000px;
     
 }
@@ -127,7 +127,7 @@ ul, ol
     background-color:rgba(0, 0, 0, 0.8);
     margin: 0 auto;
     padding: 20px 20px;
-    /*width: 70%;*/
+    /* min-width: 100%; */
     border-radius: 20px;
     text-align: center;
 
@@ -142,9 +142,11 @@ ul, ol
 
 #about .heading h1
 {
+    font-size: 3.5rem;
     color: #ffffff;
     text-transform: uppercase;
-    margin-top: 20px;
+    margin: 30px 0;
+    
 }
 
 #about .heading h3
